@@ -9,7 +9,7 @@
 .start {
   margin: auto;
   background-color: #63738a;
-  width: 60%;
+  width: 550px;
   height: 600px;
   padding: top;
   text-align: center;
@@ -43,8 +43,8 @@
   content: "";
   position: absolute;
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.249);
-  top: 13.6%;
-  right: 300px;
+  top: 12.6%;
+  right: 602px;
 }
 
 .header::after {
@@ -53,8 +53,8 @@
   content: "";
   position: absolute;
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.249);
-  top: 13.6%;
-  left: 300px;
+  top: 12.6%;
+  left: 602px;
 }
 .desc {
   color: #63636396;
