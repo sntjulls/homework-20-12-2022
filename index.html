@@ -1,39 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <main>
-        <section class="start">
-<section class="form_background">
-    <h1 class="header">Register</h1>
-    <p class="desc">Create you account. It's free and only takes a minute.</p>
-<section>
-    <form class="form_register" action="" method="get">
-        <!-- <fieldset> -->
-        <input type="text" placeholder="first name"
-        autofocus
-        required>
-        <input type="text" placeholder="last name">
-        
-        <input type="text" placeholder="email">
-        <input type="password" placeholder="password">
-        <input type="password" placeholder="confirm password">
-    <!-- </fieldset> -->
-<button type="submit">register now</button>
-    </form>
-</section>
+      <section class="start">
+        <section class="form_background">
+          <h1 class="header">Register</h1>
+          <p class="desc">
+            Create you account. It's free and only takes a minute.
+          </p>
+          <section>
+            <form class="form_register" action="" method="get">
+              <fieldset>
+                <!-- <legend>personal info</legend> -->
+                <input
+                  type="text"
+                  class="name_form"
+                  placeholder="first name"
+                  autofocus
+                  required
+                />
+                <input type="text" class="name_form" placeholder="last name" />
+              </fieldset>
 
-</section>
+              <input type="email" class="other_info" placeholder="email" />
+              <input
+                type="password"
+                class="other_info"
+                placeholder="password"
+              />
+              <input
+                type="password"
+                class="other_info"
+                placeholder="confirm password"
+              />
+              <fieldset>
+                <!-- <legend>checkbox</legend> -->
+                <label>
+                  <input class="checkbox_text" type="checkbox" name="" />
+                  I accept the <a class="form_links" href="">Terms of Use</a> &
+                  <a class="form_links" href="">Privacy Policy</a>.
+                </label>
+              </fieldset>
+              <button type="submit">register now</button>
+            </form>
+          </section>
+        </section>
 
-<p>Already have an account? <a href="">Sign in</a>
-        </section> 
+        <p class="p_text">
+          Already have an account? <a class="p_link" href="">Sign in</a>
+        </p>
+      </section>
     </main>
-
-</body>
+  </body>
 </html>

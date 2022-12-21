@@ -1,5 +1,4 @@
 :root {
-  --bg-color-card: #17a2b8;
   font-size: 13px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -10,13 +9,13 @@
   margin: auto;
   background-color: #63738a;
   width: 550px;
-  height: 600px;
+  height: 500px;
   padding: top;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-self: center;
-  color: white;
+  /* color: white; */
 }
 
 .form_background {
@@ -27,14 +26,13 @@
   width: 70%;
   height: 550px;
   /* padding: 30px; */
-
 }
 .header {
-    padding-top: 27px;
-    font-size: x-large;
+  padding-top: 27px;
+  font-size: x-large;
   color: #00000095;
   text-align: center;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 .header::before {
@@ -57,25 +55,69 @@
   left: 602px;
 }
 .desc {
-  color: #63636396;
-  margin: 15px 25px 0 45px
+  color: #25242496;
+  margin: 15px 25px 0 45px;
 }
 .form_register {
-  width: 100%;
-  padding-top: 10%;
+  width: 90%;
+  padding-top: 4%;
   max-width: 400px;
-  width: 95%;
+  width: 109%;
   min-width: 300px;
-  margin: auto;
+  /* margin: auto; */
+  color: #25242496;
+}
+
+.checkbox_text {
+  width: 26px;
 }
 input,
 button {
   text-transform: capitalize;
-  font-size: 15px;
+  /* font-size: 15px; */
 }
 button {
-  border: 5;
   color: white;
   border-color: #4fa74f;
   background-color: #4fa74f;
+  width: 87%;
+  height: 30px;
+  margin-left: -8px;
+}
+fieldset {
+  display: flex;
+  flex-direction: row;
+  border: 0 none;
+}
+
+.form_links {
+  color: #4fa74f;
+}
+
+.p_text,
+.p_link {
+  color: white;
+}
+
+input {
+  /* width:  200px;
+  height: 15px; */
+  padding: 25px 0px 8px 10px;
+  border: 1px solid #999;
+  font-size: 13px;
+  margin: top 9px;
+}
+
+.name_form {
+  width: 45%;
+  height: 15px;
+  margin-left: 10px;
+}
+
+.other_info {
+  width: 87%;
+  height: 15px;
+  margin-left: -8px;
+  text-align: left;
+  margin-bottom: 9px;
 }
