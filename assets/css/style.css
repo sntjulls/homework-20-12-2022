@@ -23,19 +23,30 @@
   text-align: center;
   margin-top: 7%;
   background-color: #f2f3f7;
-  width: 70%;
+  width: 71.2%;
   height: 550px;
   /* padding: 30px; */
 }
-.header {
+/* .header {
   padding-top: 27px;
   font-size: x-large;
   color: #00000095;
   text-align: center;
   width: 70%;
   margin: 0 auto;
+} */
+
+.header {
+  position: relative;
+  font-size: 2.5rem;
+  color: #636363;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1em;
 }
-.header::before {
+
+/* .header::before {
   display: block;
   width: 100px;
   content: "";
@@ -54,23 +65,49 @@
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.249);
   top: 12.6%;
   left: 602px;
+} */
+
+.header::before,
+.header::after {
+  content: "";
+  display: block;
+  width: 30%;
+  position: absolute;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.249);
+  top: 50%;
+}
+.header::after {
+  right: 0;
+}
+.header::before {
+  left: 0;
 }
 
 .desc {
   color: #25242496;
   margin: 15px 25px 0 45px;
 }
+
 .form_register {
-  width: 90%;
+  /* width: 90%; */
   padding-top: 4%;
   max-width: 400px;
   width: 109%;
   min-width: 300px;
-  color: #25242496;
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  color: #636363;
 }
 
+/* checkbox{
+  transform:translateY(1px);
+} */
+
 .checkbox_text {
-  width: 20px;
+  width: 14px;
+  transform: translateY(3px);
 }
 input,
 button {
@@ -105,10 +142,12 @@ fieldset {
 input {
   /* width:  200px;
   height: 15px; */
-  padding: 25px 0px 8px 10px;
+  /* padding: 25px 0px 8px 10px; */
   border: 1px solid #999;
   font-size: 13px;
   margin: top 9px;
+  height: 15px;
+  padding: 17px 0px 17px 10px;
 }
 
 .name_form {
