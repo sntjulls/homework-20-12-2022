@@ -1,16 +1,16 @@
 :root {
   font-size: 13px;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 * {
   box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 .start {
   margin: auto;
   background-color: #63738a;
   width: 550px;
   height: 500px;
-  padding: top;
+  /* padding: top; */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -43,6 +43,7 @@
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.249);
   top: 12.6%;
   right: 602px;
+  margin: 0 auto;
 }
 
 .header::after {
@@ -54,6 +55,7 @@
   top: 12.6%;
   left: 602px;
 }
+
 .desc {
   color: #25242496;
   margin: 15px 25px 0 45px;
@@ -64,12 +66,11 @@
   max-width: 400px;
   width: 109%;
   min-width: 300px;
-  /* margin: auto; */
   color: #25242496;
 }
 
 .checkbox_text {
-  width: 26px;
+  width: 20px;
 }
 input,
 button {
@@ -83,6 +84,8 @@ button {
   width: 87%;
   height: 30px;
   margin-left: -8px;
+  margin-top: 10px;
+  border-radius: px;
 }
 fieldset {
   display: flex;
